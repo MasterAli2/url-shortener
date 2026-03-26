@@ -36,4 +36,3 @@ SECURE_BROWSER_XSS_FILTER = True
 
 # Static files
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

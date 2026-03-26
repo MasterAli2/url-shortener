@@ -96,3 +96,5 @@ APPEND_SLASH = True
 
 APP_NAME = getenv('APP_NAME')
 GITHUB_LINK = getenv('GITHUB_LINK')
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
