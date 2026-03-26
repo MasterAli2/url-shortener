@@ -1,7 +1,7 @@
 from .base import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['go.friendlyfish.dev']
+ALLOWED_HOSTS = ['*.friendlyfish.dev']
 
 DATABASES = {
     'default': {
