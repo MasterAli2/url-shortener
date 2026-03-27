@@ -32,9 +32,11 @@
             {% if request.user.is_staff%}
                 <a href="{% url 'admin:index' %}" class="nav-link text-muted small">Admin Panel</a>
             {% endif %}
-            
+            <a href="{% url 'github' %}" class="nav-link text-muted small">Source</a>
+            <!--
             <a href="#" class="nav-link text-muted small">Terms of Service</a>
             <a href="#" class="nav-link text-muted small">Privacy Policy</a>
+            -->
         </div>
     </div>
 
